@@ -4,6 +4,8 @@ version = "0.1.0"
 description = "Rust bindings to OpenVPN 3 Core with a userspace tunnel"
 authors = ["SalahaldinBilal"]
 license = "MPL-2.0"
+repository = "https://github.com/SalahaldinBilal/openvpn-rust-bindings"
+readme = "README.md"
 edition = "2024"
 links = "openvpn3"
 
