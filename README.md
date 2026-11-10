@@ -8,10 +8,10 @@ Core runs inside your process. It doesn't create a network adapter. The IP packe
 
 ```toml
 [dependencies]
-openvpn-rust-bindings = { git = "https://github.com/SalahaldinBilal/openvpn-rust-bindings" }
+openvpn-rust-bindings = "0.1.0"
 ```
 
-Cargo fetches the `vendor/openvpn3` submodule on its own for git dependencies.
+Core's source comes inside the crate, so there's nothing else to download.
 
 ## What you need to build it
 
