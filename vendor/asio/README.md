@@ -1,0 +1,1 @@
+asio 1.24.0 (header-only) with the patches from `vendor/openvpn3/deps/asio/patches` applied. When the openvpn3 submodule moves to another asio version or changes those patches, replace this folder to match.

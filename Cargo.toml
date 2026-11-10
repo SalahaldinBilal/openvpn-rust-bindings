@@ -1,0 +1,21 @@
+[package]
+name = "openvpn-rust-bindings"
+version = "0.1.0"
+description = "Rust bindings to OpenVPN 3 Core with a userspace tunnel"
+authors = ["SalahaldinBilal"]
+license = "MPL-2.0"
+edition = "2024"
+links = "openvpn3"
+
+[dependencies]
+zeroize = "1.9.1"
+openssl-sys = { version = "0.9.118", features = ["vendored"] }
+lz4-sys = "1.11.1"
+
+[build-dependencies]
+cc = "1.11.1"
+
+[dev-dependencies]
+ring = "0.17.14"
+base64ct = { version = "1.8.3", features = ["alloc"] }
+testcontainers = { version = "0.28.0", features = ["blocking"] }
